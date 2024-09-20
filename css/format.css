@@ -29,11 +29,13 @@ canvas {
 	font-size: 28px;
 	text-align: center;
 	color: white;
+overflow: auto;
 }
 #txt2 {
 	font-size: 28px;
 	text-align: center;
 	color: white;
+	overflow: auto;
 }
 
 #content{
@@ -53,10 +55,19 @@ canvas {
 	text-align: center;
 	color: white;
 }
+#timer {
+    text-align: center;
+    color: white;
+    display: inline-flex;
+    gap: 5px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+}
 
-#timer{
-	text-align: center;
-	color: white;
+.and {
+    margin-left: 0.5px; /* لتقريب "و" من الرقم */
+    margin-right: 10px; /* لزيادة المسافة بين الكلمة و "و" */
 }
 
 #d{
@@ -148,7 +159,7 @@ canvas {
 	height: auto;
 	max-width: 82vw;
 	max-height: 60vh;
-	
+
 	
 }
 
