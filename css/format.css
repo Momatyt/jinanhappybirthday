@@ -26,13 +26,13 @@ canvas {
 }
 
 #txt1 {
-	font-size: 28px;
+	font-size: h4;
 	text-align: center;
 	color: white;
 overflow: auto;
 }
 #txt2 {
-	font-size: 28px;
+	font-size: h4;
 	text-align: center;
 	color: white;
 	overflow: auto;
