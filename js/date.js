@@ -2,9 +2,9 @@
 var dv = document.getElementById("content");
 dv.style.opacity = 0;
 var val = 0;
-
+//21/9/1998
 function timer(){
-	var start = new Date(2022, 7, 27, 1, 12);
+	var start = new Date(1998, 8, 21, 0,0);
 	var t = new Date() - start;
 	var d = Math.floor(t / 1000 / 60 / 60 / 24);
 	var h = Math.floor(t / 1000 / 60 / 60 % 24);
