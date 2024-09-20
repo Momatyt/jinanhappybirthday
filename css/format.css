@@ -105,10 +105,12 @@ canvas {
 	text-align: center;
 	color: white;
 }
-
 #heart {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: center;  /* Horizontally center the button */
+    align-items: center;      /* Vertically center the button */
+    width: 130px;             /* Set explicit size for the heart container */
+    height: 130px;            /* Set explicit size for the heart container */
     opacity: 0.5;
     transition: opacity 0.3s ease;
 }
@@ -117,26 +119,24 @@ canvas {
     opacity: 1;
 }
 
-
-#button{
-	background-image: url("../pic/love.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-color: transparent;
-	border: none;
-	outline: none;
-	background-position: center;
-	transition: 0.1s;
-	width: 100%;
-	height: 100%;
-	
-
+#button {
+    background-image: url("../pic/love.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-position: center;
+    transition: 0.1s;
+    width: 300px;   /* Larger size */
+    height: 300px;  /* Larger size */
 }
 
 #button:active {
-	width: 92%;
-	height: 92%;
+    width: 270px;   /* Shrink proportionally on active state */
+    height: 270px;
 }
+
 
 #imgTxt{
 	position: absolute;
